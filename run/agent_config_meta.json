@@ -1,0 +1,352 @@
+{
+  "siteFile": {
+    "/favicon.ico": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.default.js",
+    "dir": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.default.js",
+    "encoding": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "env": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "level": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.default.js",
+    "dir": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.default.js",
+    "maxAge": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.local.js",
+    "dynamic": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-static/config/config.default.js"
+  },
+  "keys": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.default.js",
+  "middleware": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.default.js",
+  "development": {
+    "watchDirs": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.local.js",
+    "ignoreDirs": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.local.js",
+    "fastReady": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-development/config/config.default.js"
+  },
+  "reactssr": {
+    "injectCss": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.local.js",
+    "doctype": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "layout": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "manifest": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectJs": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "crossorigin": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "injectRes": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+    "afterRender": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/config/config.local.js",
+    "protocolWhiteList": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-multipart/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js",
+      ".jsx": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-view-react-ssr/config/config.default.js"
+    }
+  },
+  "cors": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-cors/config/config.default.js",
+  "webpack": {
+    "port": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-webpack/config/config.default.js",
+    "proxy": {
+      "host": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-webpack/config/config.default.js",
+      "match": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-webpack/config/config.default.js"
+    },
+    "webpackConfigList": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-webpack/config/config.default.js"
+  },
+  "webpackreact": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg-webpack-react/config/config.default.js",
+  "env": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "name": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "version": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "description": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "tsc": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "tsc:w": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "clean": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "build": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "build:test": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "build:prod": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "dev": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "start": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "start:test": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "start:prod": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "kill-port": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "lint": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "fix": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "ii": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "cross-env": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "egg": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "egg-view-react-ssr": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "extend": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "history": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "moment": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "react": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "react-redux": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "react-router-redux": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "react-router-config": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "redux": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/react": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "@types/react-dom": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "antd": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "babel-plugin-add-module-exports": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "babel-plugin-syntax-dynamic-import": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-decorators-legacy": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-assign": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-object-rest-spread": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "babel-preset-react": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "easywebpack-cli": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "easywebpack-react": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "egg-webpack": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "egg-webpack-react": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "history": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "imagemin-webpack-plugin": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "ip": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "less": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "less-loader": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "stylus": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "stylus-loader": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "ts-loader": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "tslint-config-standard": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "tslint-loader": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "tslint-react": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "typings-for-css-modules-loader": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "vconsole": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "url": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "license": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "homepage": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "strict": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "depth": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "logging": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "port": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/linyuefeng/Desktop/easyreact/egg-react-typescript-boilerplate/node_modules/egg/config/config.default.js"
+}

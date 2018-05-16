@@ -1,0 +1,24 @@
+{
+  "spa/ssr.js": "/public/js/spa/ssr.js",
+  "spa/ssr.css": "/public/css/spa/ssr.css",
+  "spa/ssr.js.map": "/public/js/spa/ssr.js.map",
+  "spa/ssr.css.map": "/public/css/spa/ssr.css.map",
+  "js/vendor.js": "/public/js/vendor.js",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "spa/ssr.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/spa/ssr.js"
+      ],
+      "css": [
+        "/public/css/spa/ssr.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}
