@@ -11,8 +11,11 @@ const tabKey = { '/spa/ssr': 'home', '/spa/ssr/about': 'about' }
 interface IState {
   current: string
 }
+interface IProps {
+  url: string
+}
 
-class App extends Component<{}, IState> {
+class App extends Component<IProps, IState> {
   constructor(props) {
     super(props)
     const { url } = props

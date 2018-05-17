@@ -1438,3 +1438,19 @@
 2018-05-16 18:49:47,689 INFO 5425 [egg:core] dump config after load, 6ms
 2018-05-16 18:49:47,712 INFO 5425 [egg-watcher:app] watcher start success
 2018-05-16 18:49:47,724 INFO 5425 [egg:core] dump config after ready, 7ms
+2018-05-16 19:41:44,710 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-17 00:16:42,617 WARN 5425 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-05-17 00:16:42,634 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-17 02:18:24,135 WARN 5425 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-05-17 02:18:24,139 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-17 04:20:04,119 WARN 5425 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-05-17 04:20:04,122 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-17 06:21:44,055 WARN 5425 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-05-17 06:21:44,058 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-17 08:23:24,088 WARN 5425 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-05-17 08:23:24,095 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-17 09:41:28,109 WARN 5425 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-05-17 09:41:28,111 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-17 10:20:27,052 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-17 10:27:03,529 WARN 5425 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-05-17 10:27:03,529 WARN 5425 [ClusterClient:Watcher] follower closed, and try to init it again

@@ -4,11 +4,11 @@ import { Provider } from 'react-redux';
 import { BrowserRouter, StaticRouter } from 'react-router-dom';
 import { AppContainer } from 'react-hot-loader';
 import { matchRoutes } from 'react-router-config';
-import Layout from 'framework/layout/layout';
-import SSR from 'component/spa/ssr/ssr';
-import { create } from 'component/spa/ssr/store';
-import routes from 'component/spa/ssr/routes';
-import 'asset/css/global.css';
+import Layout from '../../framework/layout/layout';
+import SSR from '../../component/spa/ssr/ssr';
+import create from '../../component/spa/ssr/store';
+import routes from '../../component/spa/ssr/routes';
+import '../../asset/css/global.css';
 import './spa.css';
 var clientRender = function () {
     var store = create(window.__INITIAL_STATE__);

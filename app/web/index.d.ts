@@ -11,3 +11,10 @@ interface Window {
 }
 
 declare var window: Window
+
+interface Module {
+  hot: {
+    accept: (path?: string, cb?: () => void) => void,
+  }
+}
+declare var module: Module
