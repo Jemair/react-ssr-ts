@@ -7,7 +7,11 @@ declare var process: {
 }
 
 interface Window {
-  __INITIAL_STATE__: object
+  __INITIAL_STATE__: {
+    url: string,
+  },
+  __REDUX_DEVTOOLS_EXTENSION__: () => void,
+  devToolsExtension: any,
 }
 
 declare var window: Window
@@ -15,6 +19,7 @@ declare var window: Window
 interface Module {
   hot: {
     accept: (path?: string, cb?: () => void) => void,
-  }
+  },
+  exports: any
 }
 declare var module: Module

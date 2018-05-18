@@ -1,4 +1,8 @@
 {
+  "book/book.js": "/public/js/book/book.js",
+  "book/book.css": "/public/css/book/book.css",
+  "book/book.js.map": "/public/js/book/book.js.map",
+  "book/book.css.map": "/public/css/book/book.css.map",
   "spa/ssr.js": "/public/js/spa/ssr.js",
   "spa/ssr.css": "/public/css/spa/ssr.css",
   "spa/ssr.js.map": "/public/js/spa/ssr.js.map",
@@ -13,6 +17,15 @@
       ],
       "css": [
         "/public/css/spa/ssr.css"
+      ]
+    },
+    "book/book.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/book/book.js"
+      ],
+      "css": [
+        "/public/css/book/book.css"
       ]
     }
   },

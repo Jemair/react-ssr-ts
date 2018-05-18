@@ -1,7 +1,7 @@
 
 import { Application } from 'egg'
 export default (app: Application) => {
-  app.get('/', app.controller.spa.spa.index)
+  app.get('/', app.controller.book.book.index)
   app.get('/spa(/.+)?', app.controller.spa.spa.ssr)
 }
 

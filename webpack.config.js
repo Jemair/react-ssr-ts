@@ -12,7 +12,8 @@ module.exports = {
       { 'spa/ssr': 'app/web/page/spa/ssr.tsx?loader=false' }
     ],*/
     include: [
-      {'spa/ssr': 'app/web/page/spa/ssr.tsx?loader=false'}
+      {'spa/ssr': 'app/web/page/spa/ssr.tsx?loader=false'},
+      {'book/book': 'app/web/page/book/book.tsx?loader=false'},
     ],
     exclude: ['app/web/page/test'],
     loader: {
@@ -31,7 +32,15 @@ module.exports = {
   },
   dll: ['react', 'react-dom'],
   loaders: {
-    typescript: true,
+    tslint: {
+      test: /\.(ts|tsx)$/,
+      loader: require.resolve('tslint-loader'),
+      enforce: 'pre',
+    },
+    typescript: {
+      test: /\.(ts|tsx)$/,
+      loader: require.resolve('ts-loader'),
+    },
     sass:{
       enable: true,
       type: ['client', 'server'],

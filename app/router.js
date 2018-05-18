@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = (app) => {
-    app.get('/', app.controller.spa.spa.index);
+    app.get('/', app.controller.book.book.index);
     app.get('/spa(/.+)?', app.controller.spa.spa.ssr);
 };
 /*
